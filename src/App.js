@@ -16,6 +16,11 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React with the NFT GODS!
+          <br>
+          </br>
+          HO LENNON 
+          <br></br>
+          NG CHING ONN
         </a>
       </header>
     </div>
