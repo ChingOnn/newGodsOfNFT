@@ -1,31 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import TextField from '@mui/material/TextField';
+import Card from '@mui/material/Card';
+import Button from '@mui/material/Button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React with the NFT GODS!
-          <br>
-          </br>
-          HO LENNON 
-          <br></br>
-          NG CHING ONN
 
-          WOWOW TEST ssss
-        </a>
-      </header>
-    </div>
+    <Card class="card">
+      <TextField id="outlined-basic" label="Name" variant="outlined">Name</TextField>   
+      <TextField id="outlined-basic" label="Password" variant="outlined">Password</TextField>
+      <Button variant="contained">Log in</Button>
+    </Card>
+    
+
+    
+    
   );
 }
 
